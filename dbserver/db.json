@@ -1,0 +1,102 @@
+{
+    "customers":[
+        {
+            "id":1,
+            "name":"Rohith K",
+            "email":"rohithk@gmail.com",
+            "contactno":"1234567890",
+            "address":"123 Main St, Warangal",
+            "orders":[],
+            "wishlist":[]
+        },
+        {
+            "id":2,
+            "name":"Rohan K",
+            "email":"rohank@gmail.com",
+            "contactno":"9734868545",
+            "address":"456 Elm St, Hyderabad",
+            "orders":[],
+            "wishlist":[]
+        }
+    ],
+    "restaurants":[
+        {
+          "id": 1,
+          "name": "The Gourmet Kitchen",
+          "address": "123 Culinary Blvd, Foodtown, FT 56789",
+          "rating": 4.8,
+          "reviews": 150,
+          "imageurl": "./images/restaurants/restaurant1.jpg",
+          "menu": [
+            {
+              "id": 1,
+              "name": "Grilled Salmon",
+              "price": 22.99,
+              "reviews": 85,
+              "rating": 4.7,
+              "imageurl": "./images/dishes/dish1.jpg"
+            },
+            {
+              "id": 2,
+              "name": "Caesar Salad",
+              "price": 8.99,
+              "reviews": 120,
+              "rating": 4.5,
+              "imageurl": "./images/dishes/dish2.jpg"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Pizza Paradise",
+          "address": "456 Dough St, Pizzaville, PV 12345",
+          "rating": 4.5,
+          "reviews": 200,
+          "imageurl": "./images/restaurants/restaurant2.jpg",
+          "menu": [
+            {
+              "id": 3,
+              "name": "Margherita Pizza",
+              "price": 12.99,
+              "reviews": 140,
+              "rating": 4.6,
+              "imageurl": "./images/dishes/dish3.jpg"
+            },
+            {
+              "id": 4,
+              "name": "Pepperoni Pizza",
+              "price": 14.99,
+              "reviews": 160,
+              "rating": 4.7,
+              "imageurl": "./images/dishes/dish4.jpg"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Burger Barn",
+          "address": "789 Grill Ave, Burger City, BC 67890",
+          "rating": 4.3,
+          "reviews": 180,
+          "imageurl": "./images/restaurants/restaurant3.jpg",
+          "menu": [
+            {
+              "id": 5,
+              "name": "Classic Burger",
+              "price": 10.99,
+              "reviews": 90,
+              "rating": 4.4,
+              "imageurl": "./images/dishes/dish5.jpg"
+            },
+            {
+              "id": 6,
+              "name": "Veggie Burger",
+              "price": 9.99,
+              "reviews": 110,
+              "rating": 4.3,
+              "imageurl": "./images/dishes/dish6.jpg"
+            }
+          ]
+        }
+      ]      
+}
