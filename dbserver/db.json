@@ -1,258 +1,284 @@
 {
-    "customers":[
-        {
-            "id":1,
-            "name":"Rohith K",
-            "email":"rohithk@gmail.com",
-            "contactno":"1234567890",
-            "address":"123 Main St, Warangal",
-            "orders":[],
-            "wishlist":[]
-        },
-        {
-            "id":2,
-            "name":"Rohan K",
-            "email":"rohank@gmail.com",
-            "contactno":"9734868545",
-            "address":"456 Elm St, Hyderabad",
-            "orders":[],
-            "wishlist":[]
-        }
-    ],
-    "restaurants":[
+  "customers": [
+    {
+      "id": 1,
+      "name": "Rohith K",
+      "email": "rohithk@gmail.com",
+      "contactno": "1234567890",
+      "address": "123 Main St, Warangal",
+      "orders": [],
+      "wishlist": []
+    },
+    {
+      "id": 2,
+      "name": "Rohan K",
+      "email": "rohank@gmail.com",
+      "contactno": "9734868545",
+      "address": "456 Elm St, Hyderabad",
+      "orders": [],
+      "wishlist": []
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "The Gourmet Kitchen",
+      "address": "123 Culinary Blvd, Foodtown, FT 56789",
+      "rating": 4.8,
+      "reviews": 150,
+      "imageurl": "images/restaurants/restaurant1.jpg",
+      "menu": [
         {
           "id": 1,
-          "name": "The Gourmet Kitchen",
-          "address": "123 Culinary Blvd, Foodtown, FT 56789",
-          "rating": 4.8,
-          "reviews": 150,
-          "imageurl": "images/restaurants/restaurant1.jpg",
-          "menu": [
-            {
-              "id": 1,
-              "name": "Grilled Salmon",
-              "price": 22.99,
-              "reviews": 85,
-              "rating": 4.7,
-              "imageurl": "images/dishes/dish1.jpg"
-            },
-            {
-              "id": 2,
-              "name": "Caesar Salad",
-              "price": 8.99,
-              "reviews": 120,
-              "rating": 4.5,
-              "imageurl": "images/dishes/dish2.jpg"
-            }
-          ]
+          "name": "Grilled Salmon",
+          "price": 22.99,
+          "reviews": 85,
+          "rating": 4.7,
+          "imageurl": "images/dishes/dish1.jpg"
         },
         {
           "id": 2,
-          "name": "Pizza Paradise",
-          "address": "456 Dough St, Pizzaville, PV 12345",
+          "name": "Caesar Salad",
+          "price": 8.99,
+          "reviews": 120,
           "rating": 4.5,
-          "reviews": 200,
-          "imageurl": "images/restaurants/restaurant2.jpg",
-          "menu": [
-            {
-              "id": 3,
-              "name": "Margherita Pizza",
-              "price": 12.99,
-              "reviews": 140,
-              "rating": 4.6,
-              "imageurl": "images/dishes/dish3.jpg"
-            },
-            {
-              "id": 4,
-              "name": "Pepperoni Pizza",
-              "price": 14.99,
-              "reviews": 160,
-              "rating": 4.7,
-              "imageurl": "images/dishes/dish4.jpg"
-            }
-          ]
-        },
+          "imageurl": "images/dishes/dish2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pizza Paradise",
+      "address": "456 Dough St, Pizzaville, PV 12345",
+      "rating": 4.5,
+      "reviews": 200,
+      "imageurl": "images/restaurants/restaurant2.jpg",
+      "menu": [
         {
           "id": 3,
-          "name": "Burger Barn",
-          "address": "789 Grill Ave, Burger City, BC 67890",
-          "rating": 4.3,
-          "reviews": 180,
-          "imageurl": "images/restaurants/restaurant3.jpg",
-          "menu": [
-            {
-              "id": 5,
-              "name": "Classic Burger",
-              "price": 10.99,
-              "reviews": 90,
-              "rating": 4.4,
-              "imageurl": "images/dishes/dish5.jpg"
-            },
-            {
-              "id": 6,
-              "name": "Veggie Burger",
-              "price": 9.99,
-              "reviews": 110,
-              "rating": 4.3,
-              "imageurl": "images/dishes/dish6.jpg"
-            }
-          ]
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "reviews": 140,
+          "rating": 4.6,
+          "imageurl": "images/dishes/dish3.jpg"
         },
         {
-            "id": 4,
-            "name": "The Gourmet Kitchen",
-            "address": "123 Culinary Blvd, Foodtown, FT 56789",
-            "rating": 4.8,
-            "reviews": 150,
-            "imageurl": "images/restaurants/restaurant1.jpg",
-            "menu": [
-              {
-                "id": 1,
-                "name": "Grilled Salmon",
-                "price": 22.99,
-                "reviews": 85,
-                "rating": 4.7,
-                "imageurl": "images/dishes/dish1.jpg"
-              },
-              {
-                "id": 2,
-                "name": "Caesar Salad",
-                "price": 8.99,
-                "reviews": 120,
-                "rating": 4.5,
-                "imageurl": "images/dishes/dish2.jpg"
-              }
-            ]
-          },
-          {
-            "id": 5,
-            "name": "Pizza Paradise",
-            "address": "456 Dough St, Pizzaville, PV 12345",
-            "rating": 4.5,
-            "reviews": 200,
-            "imageurl": "images/restaurants/restaurant2.jpg",
-            "menu": [
-              {
-                "id": 3,
-                "name": "Margherita Pizza",
-                "price": 12.99,
-                "reviews": 140,
-                "rating": 4.6,
-                "imageurl": "images/dishes/dish3.jpg"
-              },
-              {
-                "id": 4,
-                "name": "Pepperoni Pizza",
-                "price": 14.99,
-                "reviews": 160,
-                "rating": 4.7,
-                "imageurl": "images/dishes/dish4.jpg"
-              }
-            ]
-          },
-          {
-            "id": 6,
-            "name": "Burger Barn",
-            "address": "789 Grill Ave, Burger City, BC 67890",
-            "rating": 4.3,
-            "reviews": 180,
-            "imageurl": "images/restaurants/restaurant3.jpg",
-            "menu": [
-              {
-                "id": 5,
-                "name": "Classic Burger",
-                "price": 10.99,
-                "reviews": 90,
-                "rating": 4.4,
-                "imageurl": "images/dishes/dish5.jpg"
-              },
-              {
-                "id": 6,
-                "name": "Veggie Burger",
-                "price": 9.99,
-                "reviews": 110,
-                "rating": 4.3,
-                "imageurl": "images/dishes/dish6.jpg"
-              }
-            ]
-          },
-          {
-            "id": 7,
-            "name": "The Gourmet Kitchen",
-            "address": "123 Culinary Blvd, Foodtown, FT 56789",
-            "rating": 4.8,
-            "reviews": 150,
-            "imageurl": "images/restaurants/restaurant1.jpg",
-            "menu": [
-              {
-                "id": 1,
-                "name": "Grilled Salmon",
-                "price": 22.99,
-                "reviews": 85,
-                "rating": 4.7,
-                "imageurl": "images/dishes/dish1.jpg"
-              },
-              {
-                "id": 2,
-                "name": "Caesar Salad",
-                "price": 8.99,
-                "reviews": 120,
-                "rating": 4.5,
-                "imageurl": "images/dishes/dish2.jpg"
-              }
-            ]
-          },
-          {
-            "id": 8,
-            "name": "Pizza Paradise",
-            "address": "456 Dough St, Pizzaville, PV 12345",
-            "rating": 4.5,
-            "reviews": 200,
-            "imageurl": "images/restaurants/restaurant2.jpg",
-            "menu": [
-              {
-                "id": 3,
-                "name": "Margherita Pizza",
-                "price": 12.99,
-                "reviews": 140,
-                "rating": 4.6,
-                "imageurl": "images/dishes/dish3.jpg"
-              },
-              {
-                "id": 4,
-                "name": "Pepperoni Pizza",
-                "price": 14.99,
-                "reviews": 160,
-                "rating": 4.7,
-                "imageurl": "images/dishes/dish4.jpg"
-              }
-            ]
-          },
-          {
-            "id": 9,
-            "name": "Burger Barn",
-            "address": "789 Grill Ave, Burger City, BC 67890",
-            "rating": 4.3,
-            "reviews": 180,
-            "imageurl": "images/restaurants/restaurant3.jpg",
-            "menu": [
-              {
-                "id": 5,
-                "name": "Classic Burger",
-                "price": 10.99,
-                "reviews": 90,
-                "rating": 4.4,
-                "imageurl": "images/dishes/dish5.jpg"
-              },
-              {
-                "id": 6,
-                "name": "Veggie Burger",
-                "price": 9.99,
-                "reviews": 110,
-                "rating": 4.3,
-                "imageurl": "images/dishes/dish6.jpg"
-              }
-            ]
-          }
-      ]      
+          "id": 4,
+          "name": "Pepperoni Pizza",
+          "price": 14.99,
+          "reviews": 160,
+          "rating": 4.7,
+          "imageurl": "images/dishes/dish4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Burger Barn",
+      "address": "789 Grill Ave, Burger City, BC 67890",
+      "rating": 4.3,
+      "reviews": 180,
+      "imageurl": "images/restaurants/restaurant3.jpg",
+      "menu": [
+        {
+          "id": 5,
+          "name": "Classic Burger",
+          "price": 10.99,
+          "reviews": 90,
+          "rating": 4.4,
+          "imageurl": "images/dishes/dish5.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Veggie Burger",
+          "price": 9.99,
+          "reviews": 110,
+          "rating": 4.3,
+          "imageurl": "images/dishes/dish6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Taco Town",
+      "address": "303 Birch St, Tacoville",
+      "rating": 4.4,
+      "reviews": 250,
+      "imageurl": "../images/restaurants/restaurant4.jpg",
+      "menu": [
+        {
+          "id": 7,
+          "name": "Beef Taco",
+          "price": 3.99,
+          "imageurl": "../images/dishes/dish7.jpg",
+          "rating": 4.5,
+          "reviews": 300
+        },
+        {
+          "id": 8,
+          "name": "Chicken Taco",
+          "price": 4.49,
+          "imageurl": "../images/dishes/dish8.jpg",
+          "rating": 4.6,
+          "reviews": 320
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pasta Paradise",
+      "address": "404 Pine St, Pastaville",
+      "rating": 4.6,
+      "reviews": 130,
+      "imageurl": "../images/restaurants/restaurant5.jpg",
+      "menu": [
+        {
+          "id": 9,
+          "name": "Spaghetti Carbonara",
+          "price": 11.99,
+          "imageurl": "../images/dishes/dish9.jpg",
+          "rating": 4.7,
+          "reviews": 140
+        },
+        {
+          "id": 10,
+          "name": "Fettuccine Alfredo",
+          "price": 12.49,
+          "imageurl": "../images/dishes/dish10.jpg",
+          "rating": 4.8,
+          "reviews": 160
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Steak House",
+      "address": "505 Walnut St, Steakville",
+      "rating": 4.8,
+      "reviews": 220,
+      "imageurl": "../images/restaurants/restaurant6.jpg",
+      "menu": [
+        {
+          "id": 11,
+          "name": "Ribeye Steak",
+          "price": 24.99,
+          "imageurl": "../images/dishes/dish11.jpg",
+          "rating": 4.9,
+          "reviews": 240
+        },
+        {
+          "id": 12,
+          "name": "T-Bone Steak",
+          "price": 26.99,
+          "imageurl": "../images/dishes/dish12.jpg",
+          "rating": 5.0,
+          "reviews": 260
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Curry Corner",
+      "address": "606 Cherry St, Curryville",
+      "rating": 4.5,
+      "reviews": 150,
+      "imageurl": "../images/restaurants/restaurant7.jpg",
+      "menu": [
+        {
+          "id": 13,
+          "name": "Chicken Curry",
+          "price": 13.99,
+          "imageurl": "../images/dishes/dish13.jpg",
+          "rating": 4.6,
+          "reviews": 170
+        },
+        {
+          "id": 14,
+          "name": "Lamb Curry",
+          "price": 15.99,
+          "imageurl": "../images/dishes/dish14.jpg",
+          "rating": 4.7,
+          "reviews": 190
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Vegan Vibes",
+      "address": "707 Peach St, Vegantown",
+      "rating": 4.6,
+      "reviews": 180,
+      "imageurl": "../images/restaurants/restaurant8.jpg",
+      "menu": [
+        {
+          "id": 15,
+          "name": "Vegan Burger",
+          "price": 10.99,
+          "imageurl": "../images/dishes/dish15.jpg",
+          "rating": 4.7,
+          "reviews": 200
+        },
+        {
+          "id": 16,
+          "name": "Vegan Salad",
+          "price": 9.99,
+          "imageurl": "../images/dishes/dish16.jpg",
+          "rating": 4.8,
+          "reviews": 220
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Seafood Shack",
+      "address": "808 Ocean St, Seafoodville",
+      "rating": 4.7,
+      "reviews": 190,
+      "imageurl": "../images/restaurants/restaurant9.jpg",
+      "menu": [
+        {
+          "id": 17,
+          "name": "Grilled Salmon",
+          "price": 18.99,
+          "imageurl": "../images/dishes/dish17.jpg",
+          "rating": 4.8,
+          "reviews": 210
+        },
+        {
+          "id": 18,
+          "name": "Lobster Roll",
+          "price": 21.99,
+          "imageurl": "../images/dishes/dish18.jpg",
+          "rating": 4.9,
+          "reviews": 230
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "BBQ Bliss",
+      "address": "909 Maple St, BBQville",
+      "rating": 4.8,
+      "reviews": 210,
+      "imageurl": "../images/restaurants/restaurant10.jpg",
+      "menu": [
+        {
+          "id": 19,
+          "name": "BBQ Ribs",
+          "price": 19.99,
+          "imageurl": "../images/dishes/dish19.jpg",
+          "rating": 4.9,
+          "reviews": 230
+        },
+        {
+          "id": 20,
+          "name": "Pulled Pork Sandwich",
+          "price": 14.99,
+          "imageurl": "../images/dishes/dish20.jpg",
+          "rating": 5.0,
+          "reviews": 250
+        }
+      ]
+    }
+  ]
 }
